@@ -1,0 +1,24 @@
+name: "Ameen Sidhique M Y"
+output_dir: "."
+navbar:
+  title: "Ameen Sidhique M Y"
+  left:
+    - text: "Resume"
+      href: Resume.html
+    - text: "Football in R"
+      href: football.html
+    - text: "Blog"
+      href: blog.html
+    - text: "About"
+      href: about.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/ameensidhiquemy
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/ameen_stats
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/ameen-sidhique-m-y-bba457163/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
